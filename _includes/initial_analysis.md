@@ -11,4 +11,11 @@ The average location of check-ins within this cell is defined as a user's home. 
 
 We can have a look at user home locations as well as check-in locations by country in the figure below.
 
-{% include homes_and_checkins.html %}
+{% include homes_and_checkins_plot.html %}
+
+By selecting "Number of Homes" in the dropdown menu, we can see that the users living in the United States and in Brasil are the ones who use the Foursquare application the most. In Europe and Asia, and Australia, there is also a big amount of users using the application, whereas in Africa, some countries don't have any users checking in anywhere.  
+
+Let's dig a little deeper by looking at the 20 countries with the most users and figure out how the check-ins in these countries compare. 
+
+{% include top_20_plot.html %}
+
